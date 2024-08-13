@@ -1,13 +1,14 @@
-import { FC } from 'react'
+import { FC } from "react";
 
-interface ExperienceProps {
-
-}
+interface ExperienceProps {}
 
 const Experience: FC<ExperienceProps> = () => {
- return (
-  <div></div>
-)
+  return (
+    <section>
+      <p></p>
+      <h1></h1>
+    </section>
+  );
 };
 
-export default Experience
+export default Experience;

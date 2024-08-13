@@ -1,6 +1,13 @@
 import { PiMedalFill } from "react-icons/pi";
 import { IoPeopleSharp } from "react-icons/io5";
 
+export const navLinks = [
+  { title: "About", link: "#about" },
+  { title: "Experience", link: "#experience" },
+  { title: "Projects", link: "#projects" },
+  { title: "Contact", link: "#contact" },
+];
+
 export const about = [
   {
     icon: PiMedalFill,
@@ -10,6 +17,6 @@ export const about = [
   {
     icon: IoPeopleSharp,
     title: "Education",
-    subTitle: "C.N.U./Bachelors Degree",
+    subTitle: "CNU/Bachelors Degree",
   },
 ];

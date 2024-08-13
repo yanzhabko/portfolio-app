@@ -1,5 +1,6 @@
 import { FC } from "react";
 import Button from "../Button";
+import Title from "../Title";
 
 interface HeroProps {}
 
@@ -10,22 +11,14 @@ const Hero: FC<HeroProps> = () => {
         .
       </div>
       <div className="flex flex-col gap-[7px] items-center">
-        <p className="text-gray-600 font-[600]">Hi, I'm</p>
-        <h1 className="text-[24px] md:text-[32px] font-semibold">Yan Zhanko</h1>
+        <Title title="Hi, I'm" type="subtitle" />
+        <Title title="Yan Zhabko" type="title" />
         <p className="text-gray-600 md:text-[24px] font-[600]">
-          Front-end Developer
+          Front-End Developer
         </p>
         <div className="flex justify-between gap-[20px] mt-[15px]">
-          <Button
-            title="Download CV"
-            link=""
-            className="border border-black text-black hover:bg-gray-900 hover:text-white hover:border-transparent"
-          />
-          <Button
-            title="Contact Us"
-            link=""
-            className="bg-gray-700 text-white !px-[21px] hover:bg-gray-900"
-          />
+          <Button type="white" title="Download CV" />
+          <Button type="dark" tag="a" title="Contact Us" />
         </div>
       </div>
     </section>

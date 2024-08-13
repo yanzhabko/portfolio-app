@@ -9,7 +9,7 @@ interface HomeProps {}
 
 const Home: FC<HomeProps> = () => {
   return (
-    <main className="flex-1 flex flex-col gap-[80px] lg:gap-[200px]">
+    <main className="flex-1 flex flex-col gap-[80px] mt-[60px] lg:gap-[200px] lg:mt-[160px]">
       <Hero />
       <About />
       <Experience />
