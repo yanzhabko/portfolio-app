@@ -1,9 +1,12 @@
 import { FC } from "react";
+import Title from "../Title";
 
-interface ProjectsProps {}
-
-const Projects: FC<ProjectsProps> = () => {
-  return <div></div>;
+const Projects: FC = () => {
+  return (
+    <section className="container flex items-center justify-center">
+      <Title title="Projects coming soon.. 😊" type="title" />
+    </section>
+  );
 };
 
 export default Projects;

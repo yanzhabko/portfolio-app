@@ -1,13 +1,12 @@
-import { FC } from 'react'
+import { FC } from "react";
 
 interface ImageProps {
-
+  src: string;
+  className?: string;
 }
 
-const Image: FC<ImageProps> = () => {
- return (
-  <div></div>
-)
+const Image: FC<ImageProps> = ({ src, className }) => {
+  return <img src={src} className={className} />;
 };
 
-export default Image
+export default Image;

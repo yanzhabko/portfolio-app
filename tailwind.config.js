@@ -23,6 +23,13 @@ export default {
         lg: "1024px",
         xl: "1440px",
       },
+      colors: {
+        "white-100": "#f9f9f9",
+        "black-100": "#2d2e32",
+      },
+      scale: {
+        130: "1.3",
+      },
       container: {
         center: true,
         padding: {

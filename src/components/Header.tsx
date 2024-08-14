@@ -1,5 +1,4 @@
 import { FC } from "react";
-import { Link } from "react-router-dom";
 import { IoMdClose } from "react-icons/io";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { navLinks } from "../utils/constants/constant";
@@ -38,9 +37,13 @@ const Header: FC = () => {
       }`}
     >
       <div className="container w-full flex justify-between items-center py-[15px] xl:py-[20px]">
-        <Link to="/" className="text-[22px] md:text-[24px]" onClick={onClose}>
-          Yan Zhabko
-        </Link>
+        <NavLink
+          title="Yan.dev"
+          link="/"
+          className="text-[22px] md:text-[24px]"
+          onClick={onClose}
+          type="logo"
+        />
         <nav className="hidden gap-[25px] text-[15px] md:text-[20px] xl:flex">
           {navLinks.map((item, index) => (
             <NavLink key={index} title={item.title} link={item.link} />

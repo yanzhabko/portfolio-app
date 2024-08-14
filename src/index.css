@@ -26,7 +26,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
-  background-color: white;
+  background-color: #f9f9f9;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -34,8 +34,21 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  flex: -1;
+}
+
 section {
-  scroll-margin-top: 200px;
+  @apply py-[100px] lg:py-[150px];
+  scroll-margin-top: 100px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 h1,
