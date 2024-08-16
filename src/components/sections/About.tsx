@@ -11,7 +11,7 @@ const About: FC = () => {
       <div className="container flex w-full flex-col items-center lg:flex-row gap-[50px]">
         <Image
           src={love}
-          className="w-[270px] h-[250px] lg:w-[450px] lg:h-[400px] rounded-2xl filter drop-shadow-[0.5rem_0.5rem_0.5rem_rgba(0,0,0,0.5)]"
+          className="w-[300px] h-[250px] sm:w-[330px] lg:w-[480px] lg:h-[400px] rounded-2xl filter drop-shadow-[0.5rem_0.5rem_0.5rem_rgba(0,0,0,0.5)]"
         />
         <div className="flex-1 items-center text-center lg:text-start lg:items-start flex flex-col gap-[20px]">
           <Title

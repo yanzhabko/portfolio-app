@@ -6,7 +6,9 @@ interface ImageProps {
 }
 
 const Image: FC<ImageProps> = ({ src, className }) => {
-  return <img src={src} className={className} />;
+  return (
+    <img src={src} className={`${className} bg-center bg-cover bg-no-repeat`} />
+  );
 };
 
 export default Image;
